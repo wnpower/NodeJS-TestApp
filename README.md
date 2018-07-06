@@ -4,5 +4,6 @@
 <li>cd ~</li>
 <li>git clone&nbsp;<a href="https://github.com/wnpower/cPanel-NodeJS-TestApp.git">https://github.com/wnpower/cPanel-NodeJS-TestApp.git</a></li>
 <li>cd&nbsp;cPanel-NodeJS-TestApp</li>
+<li>npm install</li>
 <li>node test_app.js</li>
 </ol>

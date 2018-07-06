@@ -1,0 +1,23 @@
+{
+  "name": "nodejstestapp",
+  "version": "1.0.0",
+  "description": "Node.Js Test App",
+  "main": "test_app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnpower/cPanel-NodeJS-TestApp.git"
+  },
+  "author": "imorandinwnp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wnpower/cPanel-NodeJS-TestApp/issues"
+  },
+  "homepage": "https://github.com/wnpower/cPanel-NodeJS-TestApp#readme"
+}
