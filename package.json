@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wnpower/cPanel-NodeJS-TestApp.git"
+    "url": "git+https://github.com/wnpower/NodeJS-TestApp.git"
   },
   "author": "imorandinwnp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wnpower/cPanel-NodeJS-TestApp/issues"
+    "url": "https://github.com/wnpower/NodeJS-TestApp/issues"
   },
-  "homepage": "https://github.com/wnpower/cPanel-NodeJS-TestApp#readme"
+  "homepage": "https://github.com/wnpower/NodeJS-TestApp#readme"
 }
