@@ -1,9 +1,16 @@
-<h2>Aplicaci&oacute;n de prueba en Node.JS</h2>
-<p>Modo de uso:</p>
-<ol>
-<li>cd ~</li>
-<li>git clone&nbsp;<a href="https://github.com/wnpower/NodeJS-TestApp.git">https://github.com/wnpower/NodeJS-TestApp.git</a></li>
-<li>cd&nbsp;NodeJS-TestApp</li>
-<li>npm install</li>
-<li>node test_app.js</li>
-</ol>
+# NodeJS-TestApp
+Aplicaciones de prueba en Node.js
+
+## App simple Node.js
+	cd ~
+	git clone https://github.com/wnpower/NodeJS-TestApp.git
+	cd NodeJS-TestApp
+	npm install
+	node test_app.js
+## App Node.js con Websockets
+	cd ~
+	git clone https://github.com/wnpower/NodeJS-TestApp.git
+	cd NodeJS-TestApp
+	npm install ws
+	node test_websockets.js
+
