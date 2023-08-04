@@ -13,4 +13,9 @@ Aplicaciones de prueba en Node.js
 	cd NodeJS-TestApp
 	npm install ws
 	node test_websockets.js
-
+## App Node.js con Puppeteer
+        cd ~
+        git clone https://github.com/wnpower/NodeJS-TestApp.git
+        cd NodeJS-TestApp
+        npm install puppeteer
+        node test_puppeteer.js
