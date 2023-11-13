@@ -1,0 +1,11 @@
+DirectoryIndex ""
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} ^/app [NC]
+RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
+RewriteCond %{HTTP:CONNECTION} ^Upgrade$ [NC]
+RewriteRule .* ws://127.0.0.1:3110%{REQUEST_URI} [P,QSA,L]
+
+RewriteCond %{REQUEST_URI} ^/app [NC]
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+RewriteRule .* http://127.0.0.1:3110%{REQUEST_URI} [P,QSA,L]

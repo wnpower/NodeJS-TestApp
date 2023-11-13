@@ -19,3 +19,9 @@ Aplicaciones de prueba en Node.js
 	cd NodeJS-TestApp
 	npm install puppeteer
 	node test_puppeteer.js
+## App Node.js de chat con socket.io
+        cd ~
+        git clone https://github.com/wnpower/NodeJS-TestApp.git
+        cd NodeJS-TestApp/socket.io
+        npm install socket.io express
+        node test_socketio.js
