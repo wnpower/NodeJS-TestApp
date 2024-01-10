@@ -6,14 +6,14 @@ console.log('listening on port: ' + port);
 
 wss.on('connection', function connection(ws) {
 
-	ws.on('message', function(message) {
+        ws.on('message', function(message) {
 
-		console.log('message: ' + message);
-		ws.send('echo: ' + message);
+                console.log('message: ' + message);
+                ws.send('echo: ' + message);
 
-	});
+        });
 
-	console.log('new client connected!');
-	ws.send('connected!');
+        console.log('new client connected!');
+        ws.send('connected!');
 
 });
