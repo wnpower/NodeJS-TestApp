@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
+    "dev": "node server.js",
     "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
