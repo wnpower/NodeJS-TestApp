@@ -4,7 +4,7 @@
   "description": "Node.Js Test App",
   "main": "test_app.js",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.2"
   },
   "devDependencies": {},
   "scripts": {
